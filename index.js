@@ -107,7 +107,7 @@ function updateScore () {
 
     document.querySelector('.user-score').textContent = `Score : ${userScore}` ;
     console.log('I am Called'); 
-    // init(); 
+     init(); 
 }
 
 function init () {
