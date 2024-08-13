@@ -1,0 +1,193 @@
+/**************************
+*****General Formaating****
+**************************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    background-color:#e9e8e8;
+}
+
+/**************************
+***General Formaating text**
+**************************/
+.text {
+    color:white ; 
+    font-size:20px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+/**************************
+*****Entry Section****
+**************************/
+
+.entry {
+        
+        background: linear-gradient(rgb(65, 65, 122),rgb(84, 190, 163),yellow);
+        width:300px;
+        margin:30px  auto;
+        text-align: center;
+        margin-top:100px;
+        height:400px;
+        box-shadow:3px 3px  black;
+        border-radius: 10px;
+    }
+.entry-heading{
+        padding:20px 0px;
+        background: linear-gradient(rgb(151, 151, 214),rgb(111, 190, 144),yellow);
+       
+    }
+
+.username{
+    margin-top:100px;
+    text-align: center;
+    padding:10px;
+    border-radius: 5px;
+    border:none;
+    color:black;
+}
+
+.username:focus {
+    background-color: #f0f0f0;
+    border:none;
+    outline:none;
+    font-weight: bolder;
+}
+.btn-submit {
+    text-transform: uppercase;
+    padding:10px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border:none;    
+    background-color: #fdbe0ff5  ;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: #e9ab00;
+  
+}
+
+/**************************
+***** Competition Section ****
+**************************/
+
+.container {
+    background:linear-gradient(rgb(79, 79, 223),rgb(88, 150, 88));
+    width: 600px;
+    margin: 70px auto; 
+    text-align: center;
+    border-radius: 30px;
+    height: 500px;
+}
+.competition-heading{
+    background:linear-gradient(rgb(250, 63, 63),rgb(211, 211, 71));
+    text-transform: uppercase;
+    width:100%;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    color:rgb(55, 53, 77);
+}
+.heading {
+    padding: 10px;
+    font-family: "Raleway" , sans-serif;
+}
+
+.option{
+    /* padding-bottom: 10px; */
+    color: rgb(235, 243, 235);
+    /* text-align: justify; */
+    /* border:3px solid black; */
+    width:100%;
+    /* margin: 0px auto; */
+    margin-left:100px;
+    margin-bottom: 30px;
+}
+.top-option{
+    padding-bottom: 5px;
+}
+
+.option-A{
+    float:left;
+}
+.option-C{
+    float:left;
+}
+
+.option-B{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.user-selected-option {
+    /* border:5px solid red; */
+    padding:20px;
+    width:65%;
+    border-radius: 20px;
+    border:none;
+    outline:none;
+    text-align: center;
+}
+.user-selected-option:hover,
+.user-selected-option:focus{
+    box-shadow: -2px -2px rgba(206, 195, 195, 0.801);
+}
+
+.score {
+    text-align: left;
+    line-height: 0.5;
+    margin-left: 90px;
+    width:230px;
+    background:linear-gradient(rgb(79, 189, 69),yellow);
+    height:100px;
+    border-radius: 10px;
+    padding-top:20px;
+    text-align:center;
+    margin:0px auto;
+    margin-top:80px;
+    box-shadow: 3px 3px green;
+    text-transform: uppercase;
+}
+
+.user-score {
+    padding-top:20px;
+}
+.user-btn-submit{
+    padding:10px 20px;
+    border-radius: 10px ;
+    background:linear-gradient(rgb(79, 189, 69),yellow);
+    border: none;
+    opacity: 0.9;
+    margin-left:20px;
+}
+.user-selection {
+    margin:0px auto;
+    padding-left:80px;
+}
+.user-btn-submit:hover{
+    opacity:1 ;
+    cursor:grab;
+}
+/* Adding this Code with Help of Ai to add some effects while pages are changing infront of user */
+
+.hide {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
